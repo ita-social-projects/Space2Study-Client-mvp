@@ -1,0 +1,83 @@
+{
+  "welcomeBlock": {
+    "description": "An educational platform that offers professional courses in It is a long established fact that a reader will be distracted by the readable content of",
+    "getStarted": "Get started for free"
+  },
+  "accordion": {
+    "flexibleLocation": {
+      "title": "Flexible Location",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    "individualTime": {
+      "title": "Individual Time",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    "freeChoiceOfTeachers": {
+      "title": "Free Choice of Tutors",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    },
+    "digitalCommunication": {
+      "title": "Digital Communication",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    }
+  },
+  "whatCanYouDo": {
+    "title": "What can you do",
+    "description": "Whether you’re looking for a tutor or looking to become one – you’ve come to the right place.",
+    "learn": {
+      "title": "Learn from experts",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.established fact that a reader will be ",
+      "actionLabel": "Become a student"
+    },
+    "teach": {
+      "title": "Share your experience",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.established fact that a reader will be ",
+      "actionLabel": "Become a tutor"
+    }
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "learnFromExperts": "Learn from Experts",
+    "shareYourExperience": "Share your Experience",
+    "student": {
+      "signUp": {
+        "title": "Sign Up",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      },
+      "selectATutor": {
+        "title": "Select a Tutor",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      },
+      "sendRequest": {
+        "title": "Send Request",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      },
+      "startLearning": {
+        "title": "Start Learning",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      }
+    },
+    "tutor": {
+      "signUp": {
+        "title": "Sign Up",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      },
+      "createATutorAccount": {
+        "title": "Create a Tutor Account",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      },
+      "getNewStudents": {
+        "title": "Get New Students",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      },
+      "receiveFeedbacks": {
+        "title": "Receive Feedbacks",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+      }
+    }
+  },
+  "whoWeAre": {
+    "title": "Who we are",
+    "description": "Space to Study - an educational platform that offersIt a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed."
+  }
+}

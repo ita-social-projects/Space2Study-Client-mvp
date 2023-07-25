@@ -1,6 +1,6 @@
 # Space2Study-Client-mvp
 
-<a href="https://softserve.academy/"><img src="https://github.com/ita-social-projects/Space2Study-Client-mvp/blob/main/photo2.jpg" title="SoftServe IT Academy" alt="SoftServe IT Academy"></a>
+<a href="https://softserve.academy/"><img src="https://github.com/ita-social-projects/Space2Study-Client-mvp/blob/main/photo.jpg" title="SoftServe IT Academy" alt="SoftServe IT Academy"></a>
 
 # SpaceToStudy project
 

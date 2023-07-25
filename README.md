@@ -1,15 +1,15 @@
 # Space2Study-Client-mvp
 
-<a href="https://softserve.academy/"><img src="https://github.com/ita-social-projects/SpaceToStudy-Client-mvp/photo2.jpg" title="SoftServe IT Academy" alt="SoftServe IT Academy"></a>
+<a href="https://softserve.academy/"><img src="https://github.com/ita-social-projects/Space2Study-Client-mvp/blob/main/photo2.jpg" title="SoftServe IT Academy" alt="SoftServe IT Academy"></a>
 
 # SpaceToStudy project
 
 SpaceToStudy project is a platform where experts in various fields share their knowledge and students can learn from the best. Here you can find the proper training course, find a tutor, or find students and receive feedback from them.
 
 
-[![GitHub issues](https://img.shields.io/github/issues/ita-social-projects/SpaceToStudy-Client)](https://github.com/ita-social-projects/SpaceToStudy-Client-mvp/issues)
-[![Pending Pull-Requests](https://img.shields.io/github/issues-pr/ita-social-projects/SpaceToStudy-Client?style=flat-square)](https://github.com/ita-social-projects/SpaceToStudy-Client-mvp/pulls)
-[![GitHub license](https://img.shields.io/github/license/ita-social-projects/SpaceToStudy-Client-mvp)](https://github.com/ita-social-projects/SpaceToStudy-Client/blob/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/ita-social-projects/Space2Study-Client-mvp)](https://github.com/ita-social-projects/Space2Study-Client-mvp/issues)
+[![Pending Pull-Requests](https://img.shields.io/github/issues-pr/ita-social-projects/Space2Study-Client-mvp?style=flat-square)](https://github.com/ita-social-projects/Space2Study-Client-mvp/pulls)
+[![GitHub license](https://img.shields.io/github/license/ita-social-projects/Space2Study-Client-mvp)](https://github.com/ita-social-projects/Space2Study-Client/blob/LICENSE)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/horondi/horondi_client_fe)](https://s2s-front-stage.azurewebsites.net/)
 
 ---
@@ -47,7 +47,7 @@ SpaceToStudy project is a platform where experts in various fields share their k
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/ita-social-projects/SpaceToStudy-Client-mvp.git`
+- Clone this repo to your local machine using `https://github.com/ita-social-projects/Space2Study-Client-mvp.git`
 
 ### Setup
 
@@ -177,7 +177,7 @@ Checks:
 
 Command `npm run generate` is used to run [graphql code generator](https://graphql-code-generator.com)
 
-1. before using codegen you must run backend server [SpaceToStudy backend](https://github.com/ita-social-projects/SpaceToStudy-BackEnd-mvp)
+1. before using codegen you must run backend server [Space2Study backend](https://github.com/ita-social-projects/Space2Study-BackEnd-mvp)
 
 2. open terminal
 
@@ -195,11 +195,11 @@ Command `npm run generate` is used to run [graphql code generator](https://graph
 
 ## Contributing
 
-You're encouraged to contribute to our project if you've found any issues or missing functionality that you would want to see. Here you can see [the list of issues](https://github.com/ita-social-projects/SpaceToStudy-Client-mvp/issues) and here you can create [a new issue](https://github.com/ita-social-projects/SpaceToStudy-Client-mvp/issues/new/choose).
+You're encouraged to contribute to our project if you've found any issues or missing functionality that you would want to see. Here you can see [the list of issues](https://github.com/ita-social-projects/Space2Study-Client-mvp/issues) and here you can create [a new issue](https://github.com/ita-social-projects/Space2Study-Client-mvp/issues/new/choose).
 
 Before sending any pull request, please discuss requirements/changes to be implemented using an existing issue or by creating a new one. All pull requests should be done into `develop` branch.
 
-There are three GitHub projects: [SpaceToStudy-Client](https://github.com/ita-social-projects/SpaceToStudy-Client-mvp) for frontend part, [SpaceToStudy-BackEnd](https://github.com/ita-social-projects/SpaceToStudy-BackEnd-mvp/pulls) for backend part and admin part is currently under development. Every project has it's own issues.
+There are three GitHub projects: [Space2Study-Client](https://github.com/ita-social-projects/Space2Study-Client-mvp) for frontend part, [Space2Study-BackEnd](https://github.com/ita-social-projects/Space2Study-BackEnd-mvp/pulls) for backend part and admin part is currently under development. Every project has it's own issues.
 
 Every pull request should be linked to an issue. So if you make changes on frontend, backend or admin parts you should create an issue with a link to corresponding requirement (story, task or epic).
 
@@ -211,7 +211,7 @@ e.g. #020-createAdminPanel
 ### Git flow
 
 We have **main** , **develop** and **feature** branches.  
-All **feature** branches must be merged into [develop](https://github.com/ita-social-projects/SpaceToStudy-Client-mvp/tree/develop) branch!!!
+All **feature** branches must be merged into [develop](https://github.com/ita-social-projects/Space2Study-Client-mvp/tree/develop) branch!!!
 Only the release should merge into the main branch!!!
 
 ![Github flow](<https://wac-cdn.atlassian.com/dam/jcr:b5259cce-6245-49f2-b89b-9871f9ee3fa4/03%20(2).svg?cdnVersion=1312>)
@@ -220,7 +220,7 @@ Only the release should merge into the main branch!!!
 
 - **Option 1**
 
-  - 👯 Clone this repo to your local machine using `https://github.com/ita-social-projects/SpaceToStudy-Client-mvp.git`
+  - 👯 Clone this repo to your local machine using `https://github.com/ita-social-projects/Space2Study-Client-mvp.git`
 
 - **Option 2**
 
@@ -232,7 +232,7 @@ Only the release should merge into the main branch!!!
 
 #### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/ita-social-projects/SpaceToStudy-Client-mvp/compare/" target="_blank">github.com/ita-social-projects/SpaceToStudy-Client-mvp</a>.
+- 🔃 Create a new pull request using <a href="https://github.com/ita-social-projects/Space2Study-Client-mvp/compare/" target="_blank">github.com/ita-social-projects/Space2Study-Client-mvp</a>.
 
 ---
 
@@ -240,11 +240,11 @@ Only the release should merge into the main branch!!!
 
 #### Step 1
 
-- go to [issues](https://github.com/ita-social-projects/SpaceToStudy-Client-mvp/issues) and click `New issue` button
+- go to [issues](https://github.com/ita-social-projects/Space2Study-Client-mvp/issues) and click `New issue` button
 
 #### Step 2
 
-- when creating [issue](https://github.com/ita-social-projects/SpaceToStudy-Client-mvp/issues/new/choose) you should add name of the issue, description, choose assignee, label, project. If issue is a `User Story` you should link it with corresponding tasks, and corresponding tasks should be linked to issue.
+- when creating [issue](https://github.com/ita-social-projects/Space2Study-Client-mvp/issues/new/choose) you should add name of the issue, description, choose assignee, label, project. If issue is a `User Story` you should link it with corresponding tasks, and corresponding tasks should be linked to issue.
 
 #### Step 3
 

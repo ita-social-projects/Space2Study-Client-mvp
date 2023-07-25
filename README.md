@@ -30,7 +30,8 @@ SpaceToStudy project is a platform where experts in various fields share their k
   - [git flow](#git-flow)
   - [issue flow](#git-flow)
 - [Teams](#teams) 
-  - [Development team](#development-team) 
+  - [Development team](#development-team)
+  - [DevOps team](#devops-team)  
 - [FAQ](#faq)
 - [Support](#support)
 - [License](#license)
@@ -261,6 +262,10 @@ Only the release should merge into the main branch!!!
 [![@mxrcury](https://user-images.githubusercontent.com/34419998/222748150-75fae7f1-e219-48f6-a225-8f91f9cbbbd3.png)](https://github.com/mxrcury)
 [![@tsivkadi](https://user-images.githubusercontent.com/34419998/222748492-37a29d91-8acc-4319-8402-52ec5fbaa57a.png)](https://github.com/tsivkadi)
 [![@FryDay969](https://avatars.githubusercontent.com/u/39992977?v=4)](https://github.com/FryDay969)
+
+### DevOps team
+
+[![@abohatyrov](https://avatars.githubusercontent.com/u/52012169?v=4)](https://github.com/abohatyrov)
 
 ---
 

@@ -9,7 +9,7 @@ SpaceToStudy project is a platform where experts in various fields share their k
 
 [![GitHub issues](https://img.shields.io/github/issues/ita-social-projects/Space2Study-Client-mvp)](https://github.com/ita-social-projects/Space2Study-Client-mvp/issues)
 [![Pending Pull-Requests](https://img.shields.io/github/issues-pr/ita-social-projects/Space2Study-Client-mvp?style=flat-square)](https://github.com/ita-social-projects/Space2Study-Client-mvp/pulls)
-[![GitHub license](https://img.shields.io/github/license/ita-social-projects/Space2Study-Client-mvp)](https://github.com/ita-social-projects/Space2Study-Client/blob/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/ita-social-projects/Space2Study-Client-mvp)](https://github.com/ita-social-projects/Space2Study-Client-mvp/blob/main/LICENSE)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/horondi/horondi_client_fe)](https://s2s-front-stage.azurewebsites.net/)
 
 ---

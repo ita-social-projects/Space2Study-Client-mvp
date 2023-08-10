@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useSelector } from 'react-redux'
 import HashLink from '~/components/hash-link/HashLink'
@@ -37,13 +37,6 @@ const SignupForm = ({
     setIsAgreementChecked((prev) => !prev)
   }
 
-  const isValid = useMemo(
-    () =>
-      Object.values(errors).every((elem) => elem === '') &&
-      Object.values(data).every((elem) => elem !== ''),
-    [data, errors]
-  )
-
   const policyAgreement = (
     <Box sx={styles.box}>
       <Typography variant='subtitle2'>{t('signup.iAgree')}</Typography>
@@ -76,7 +69,6 @@ const SignupForm = ({
       <Box sx={{ display: { md: 'block', lg: 'flex' }, gap: '15px' }}>
         <AppTextField
           autoFocus
-          errorMsg={t(errors.firstName)}
           fullWidth
           label={t('common.labels.firstName')}
           onBlur={handleBlur('firstName')}
@@ -88,7 +80,6 @@ const SignupForm = ({
         />
 
         <AppTextField
-          errorMsg={t(errors.lastName)}
           fullWidth
           label={t('common.labels.lastName')}
           onBlur={handleBlur('lastName')}
@@ -101,7 +92,6 @@ const SignupForm = ({
       </Box>
 
       <AppTextField
-        errorMsg={t(errors.email)}
         fullWidth
         label={t('common.labels.email')}
         onBlur={handleBlur('email')}
@@ -114,7 +104,6 @@ const SignupForm = ({
 
       <AppTextField
         InputProps={passwordVisibility}
-        errorMsg={t(errors.password)}
         fullWidth
         label={t('common.labels.password')}
         onBlur={handleBlur('password')}
@@ -127,7 +116,6 @@ const SignupForm = ({
 
       <AppTextField
         InputProps={confirmPasswordVisibility}
-        errorMsg={t(errors.confirmPassword)}
         fullWidth
         label={t('common.labels.confirmPassword')}
         onBlur={handleBlur('confirmPassword')}
@@ -149,7 +137,7 @@ const SignupForm = ({
       </Box>
 
       <AppButton
-        disabled={!isValid || !isAgreementChecked}
+        disabled={!isAgreementChecked}
         loading={authLoading}
         sx={styles.signupButton}
         type='submit'

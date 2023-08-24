@@ -28,7 +28,7 @@ const side = {
     marginBottom: '8px'
   },
   description: {
-    typography: 'body2'
+    typography: { xs: 'subtitle2' }
   }
 }
 

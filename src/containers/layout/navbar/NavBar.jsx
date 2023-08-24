@@ -1,6 +1,6 @@
 import { Fragment, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
-import { matchPath, useLocation } from 'react-router-dom'
+import { matchPath, useLocation, Link } from 'react-router-dom'
 
 import Box from '@mui/material/Box'
 import Button from '@mui/material/Button'
@@ -29,9 +29,7 @@ const Navbar = () => {
   const { pathname } = useLocation()
   const { t } = useTranslation()
 
-  const homePath = userRole
-    ? guestRoutes[userRole].path
-    : guestRoutes.welcome.path
+  const homePath = userRole ? guestRoutes[userRole].path : guestRoutes.home.path
 
   const navigationItems = useMemo(() => {
     if (userRole === student) {
@@ -74,7 +72,7 @@ const Navbar = () => {
   return (
     <Box sx={styles.header}>
       <Button
-        component={HashLink}
+        component={Link}
         size={'small'}
         sx={styles.logoButton}
         to={homePath}

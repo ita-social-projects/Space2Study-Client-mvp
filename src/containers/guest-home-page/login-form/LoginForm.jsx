@@ -71,10 +71,11 @@ const LoginForm = ({
       </Typography>
 
       <AppButton
-        disabled={!data.email || !data.password}
         loading={authLoading}
+        size='large'
         sx={styles.loginButton}
         type='submit'
+        variant='contained'
       >
         {t('common.labels.login')}
       </AppButton>

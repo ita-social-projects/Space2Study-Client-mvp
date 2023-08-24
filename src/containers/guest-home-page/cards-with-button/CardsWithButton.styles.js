@@ -24,7 +24,7 @@ const side = {
     textAlign: { xs: 'start', sm: 'end' }
   },
   title: {
-    typography: 'h5',
+    typography: { xs: 'h6' },
     marginBottom: '8px'
   },
   description: {

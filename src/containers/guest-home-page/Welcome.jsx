@@ -24,11 +24,7 @@ const Welcome = () => {
   }, [isLaptopAndAbove, isTablet, isMobile])
 
   return (
-    <Box
-      className='section'
-      id={guestRoutes.welcome.route}
-      sx={styles.container}
-    >
+    <Box className='section' sx={styles.container}>
       <Box alt='Title' component='img' src={image} sx={styles.title} />
       <Typography sx={styles.subtitle}>
         {t('guestHomePage.welcomeBlock.description')}

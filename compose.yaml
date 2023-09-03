@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  client:
+    container_name: client
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - VITE_API_BASE_PATH=http://localhost:8080
+    ports:
+      - 3000:3000
+    # external_links:
+    #   - server:server
+    volumes:
+      - dist:/usr/src/app/dist
+    networks:
+      - s2s-network
+
+volumes:
+  dist:
+  client:
+
+networks:
+  s2s-network:
+    external: true

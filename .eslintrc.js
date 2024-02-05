@@ -3,27 +3,26 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
-    "vitest-globals/env": true,
+    "vitest-globals/env": true
   },
   extends: [
     "eslint:recommended",
     "plugin:prettier/recommended",
     "plugin:react/recommended",
-    "plugin:storybook/recommended",
-    "plugin:vitest-globals/recommended",
+    "plugin:vitest-globals/recommended"
   ],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 2021,
-    sourceType: "module",
+    sourceType: "module"
   },
   plugins: ["react", "testing-library", "react-hooks"],
   settings: {
     react: {
-      version: "detect",
-    },
+      version: "detect"
+    }
   },
   rules: {
     "prefer-arrow-callback": ["error"],
@@ -39,14 +38,14 @@ module.exports = {
     "react/jsx-no-useless-fragment": [
       "error",
       {
-        allowExpressions: true,
-      },
+        allowExpressions: true
+      }
     ],
     "react/jsx-max-depth": [
       "error",
       {
-        max: 5,
-      },
+        max: 5
+      }
     ],
     "react/jsx-wrap-multilines": [
       "error",
@@ -57,12 +56,12 @@ module.exports = {
         arrow: "parens",
         condition: "parens",
         logical: "parens",
-        prop: "ignore",
-      },
+        prop: "ignore"
+      }
     ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/prop-types": "off",
+    "react/prop-types": "off"
   },
   overrides: [
     {
@@ -70,11 +69,11 @@ module.exports = {
       parser: "@typescript-eslint/parser",
       parserOptions: {
         tsconfigRootDir: __dirname,
-        project: "./tsconfig.eslint.json",
+        project: "./tsconfig.eslint.json"
       },
       extends: [
         "plugin:@typescript-eslint/recommended",
-        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking"
       ],
       plugins: ["@typescript-eslint"],
       rules: {
@@ -84,22 +83,16 @@ module.exports = {
             name: "react-redux",
             importNames: ["useSelector", "useDispatch"],
             message:
-              "Use typed hooks `useAppDispatch` and `useAppSelector` instead.",
-          },
-        ],
-      },
+              "Use typed hooks `useAppDispatch` and `useAppSelector` instead."
+          }
+        ]
+      }
     },
     {
       files: ["**/tests/**/*.*.js", "**/tests/**/*.js"],
       env: {
-        jest: true,
-      },
-    },
-    {
-      files: ["**/*.stories.*"],
-      rules: {
-        "import/no-anonymous-default-export": "off",
-      },
-    },
-  ],
-};
+        jest: true
+      }
+    }
+  ]
+}

@@ -5,7 +5,6 @@ import UserStepsWrapper from '~/components/user-steps-wrapper/UserStepsWrapper'
 
 import { useSelector } from 'react-redux'
 import Faq from '~/containers/student-home-page/faq/Faq'
-import StudentHowItWorks from '~/containers/student-home-page/student-how-it-works/StudentHowItWorks'
 import { useModalContext } from '~/context/modal-context'
 
 const StudentHome = () => {
@@ -33,7 +32,7 @@ const StudentHome = () => {
       sx={{ backgroundColor: 'backgroundColor', flex: 1, overflowY: 'auto' }}
     >
       <Container data-testid='studentHome' sx={{ pt: 6 }}>
-        <StudentHowItWorks />
+        {/*implement here*/}
         <Faq />
       </Container>
     </Box>

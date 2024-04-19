@@ -1,16 +1,14 @@
-# Space2Study-Client-mvp
+# Space2Study-node-Client-mvp
 
-<a href="https://softserve.academy/"><img src="https://github.com/ita-social-projects/Space2Study-Client-mvp/blob/main/photo.jpg" title="SoftServe IT Academy" alt="SoftServe IT Academy"></a>
+<a href="https://softserve.academy/"><img src="../main/photo2.jpg" title="SoftServe IT Academy" alt="SoftServe IT Academy"></a>
 
 # SpaceToStudy project
 
 SpaceToStudy project is a platform where experts in various fields share their knowledge and students can learn from the best. Here you can find the proper training course, find a tutor, or find students and receive feedback from them.
 
-
-[![GitHub issues](https://img.shields.io/github/issues/ita-social-projects/Space2Study-Client-mvp)](https://github.com/ita-social-projects/Space2Study-Client-mvp/issues)
-[![Pending Pull-Requests](https://img.shields.io/github/issues-pr/ita-social-projects/Space2Study-Client-mvp?style=flat-square)](https://github.com/ita-social-projects/Space2Study-Client-mvp/pulls)
-[![GitHub license](https://img.shields.io/github/license/ita-social-projects/Space2Study-Client-mvp)](https://github.com/ita-social-projects/Space2Study-Client-mvp/blob/main/LICENSE)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/horondi/horondi_client_fe)](https://s2s-front-stage.azurewebsites.net/)
+[![GitHub issues](insert your link here)]
+[![Pending Pull-Requests](insert your link here)]
+[![GitHub license](insert your link here)]
 
 ---
 
@@ -24,16 +22,16 @@ SpaceToStudy project is a platform where experts in various fields share their k
 - [Documentation](#Documentation)
   - [Rules and guidelines](#Rules-and-guidelines)
   - [Testing](#Testing)
-  - [Generator](#Generator)
-- [Project deploy](#project-deploy)
 - [Contributing](#contributing)
   - [git flow](#git-flow)
   - [issue flow](#git-flow)
 - [Teams](#teams) 
-  - [Development team](#development-team)
-  - [DevOps team](#devops-team)  
+  - [Development team](#development-team) 
+  - [DevOps team](#devops-team) 
+  - [Designer team](#designer-team) 
+  - [BA team](#ba-team)
+  - [QC team](#qc-team)
 - [FAQ](#faq)
-- [Support](#support)
 - [License](#license)
 
 ---
@@ -48,7 +46,7 @@ SpaceToStudy project is a platform where experts in various fields share their k
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/ita-social-projects/Space2Study-Client-mvp.git`
+- Clone this repo to your local machine
 
 ### Setup
 
@@ -72,8 +70,6 @@ $ npm install
 ### How to run tests
 
 To run unit test open terminal and run `npm run test` in it.
-To run E2E tests you need open terminal and run `npm run start` in it to start server.
-Then open one more terminal and run `npm run cypress`.
 
 ---
 
@@ -88,8 +84,6 @@ Then open one more terminal and run `npm run cypress`.
 - Configuration
   - Configuration is done via `.env` file where environment
     variables are located
-  - Also we have `.env.example` that contains examples of environment
-    variables
 - Styles
   - For styling function `makeStyles` from `@material-ui`
     should be used and all styles should be located inside separate
@@ -174,45 +168,24 @@ Checks:
 
 ---
 
-### Generator
-
-Command `npm run generate` is used to run [graphql code generator](https://graphql-code-generator.com)
-
-1. before using codegen you must run backend server [Space2Study backend](https://github.com/ita-social-projects/Space2Study-BackEnd-mvp)
-
-2. open terminal
-
-3. run `npm run generate`
-
-4. you should run `npm run generate` every time new unions or interfaces are created
-
----
-
-## Project Deploy
-
-#### Deploy Сlient part: https://s2s-front-stage.azurewebsites.net/
-
----
-
 ## Contributing
 
-You're encouraged to contribute to our project if you've found any issues or missing functionality that you would want to see. Here you can see [the list of issues](https://github.com/ita-social-projects/Space2Study-Client-mvp/issues) and here you can create [a new issue](https://github.com/ita-social-projects/Space2Study-Client-mvp/issues/new/choose).
+You're encouraged to contribute to our project if you've found any issues or missing functionality that you would want to see. You can add in **Issues** tab and after that click on `New issue`. There you can see the list of issues and create a new issue after clicking on `New Issue`.
 
 Before sending any pull request, please discuss requirements/changes to be implemented using an existing issue or by creating a new one. All pull requests should be done into `develop` branch.
 
-There are three GitHub projects: [Space2Study-Client](https://github.com/ita-social-projects/Space2Study-Client-mvp) for frontend part, [Space2Study-BackEnd](https://github.com/ita-social-projects/Space2Study-BackEnd-mvp/pulls) for backend part and admin part is currently under development. Every project has it's own issues.
+There are two GitHub projects: **Space2Study-node-Client-mvp** for frontend part and **Space2Study-node-BackEnd-mvp** for backend part. Every project has it's own issues.
 
-Every pull request should be linked to an issue. So if you make changes on frontend, backend or admin parts you should create an issue with a link to corresponding requirement (story, task or epic).
+Every pull request should be linked to an issue. So if you make changes on frontend or backend parts you should create an issue with a link to corresponding requirement (story, task or epic). Every issue should have its own branch. Every branch name should start from task type (`feature`, `bugfix` or `test`), task number and short description. e.g. **feature/125/create-adminPanel**
 
-All Pull Requests should start from prefix _#xxx-yyy_ where _xxx_ - task number and and _yyy_ - short description
-e.g. #020-createAdminPanel
+All Pull Requests should start from prefix `#xxx-yyy` where xxx - task number and and yyy - short description e.g. **#125-createAdminPanel**
 
 ---
 
 ### Git flow
 
 We have **main** , **develop** and **feature** branches.  
-All **feature** branches must be merged into [develop](https://github.com/ita-social-projects/Space2Study-Client-mvp/tree/develop) branch!!!
+All **feature** branches must be merged into `develop` branch!!!
 Only the release should merge into the main branch!!!
 
 ![Github flow](<https://wac-cdn.atlassian.com/dam/jcr:b5259cce-6245-49f2-b89b-9871f9ee3fa4/03%20(2).svg?cdnVersion=1312>)
@@ -221,7 +194,7 @@ Only the release should merge into the main branch!!!
 
 - **Option 1**
 
-  - 👯 Clone this repo to your local machine using `https://github.com/ita-social-projects/Space2Study-Client-mvp.git`
+  - 👯 clone this repo to your local machine
 
 - **Option 2**
 
@@ -233,7 +206,7 @@ Only the release should merge into the main branch!!!
 
 #### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/ita-social-projects/Space2Study-Client-mvp/compare/" target="_blank">github.com/ita-social-projects/Space2Study-Client-mvp</a>.
+- 🔃 create a new pull request in this repository
 
 ---
 
@@ -241,11 +214,11 @@ Only the release should merge into the main branch!!!
 
 #### Step 1
 
-- go to [issues](https://github.com/ita-social-projects/Space2Study-Client-mvp/issues) and click `New issue` button
+- go to **Issues** and click `New issue` button
 
 #### Step 2
 
-- when creating [issue](https://github.com/ita-social-projects/Space2Study-Client-mvp/issues/new/choose) you should add name of the issue, description, choose assignee, label, project. If issue is a `User Story` you should link it with corresponding tasks, and corresponding tasks should be linked to issue.
+- when creating issue you should add name of the issue, description, choose assignee, label, project. If issue is a `User Story` you should link it with corresponding tasks, and corresponding tasks should be linked to issue.
 
 #### Step 3
 
@@ -257,26 +230,36 @@ Only the release should merge into the main branch!!!
 
 ### Development team
 
-[![@KhrystynaPavlikovska](https://avatars.githubusercontent.com/u/34419998?s=400&u=15346304d164fb346cc2671a7d33052d2a6324e2&v=4)](https://github.com/KhrystynaPavlikovska)
-[![@Roman-Peretiatko](https://avatars.githubusercontent.com/u/79856961?v=4)](https://github.com/Roman-Peretiatko)
-[![@mxrcury](https://user-images.githubusercontent.com/34419998/222748150-75fae7f1-e219-48f6-a225-8f91f9cbbbd3.png)](https://github.com/mxrcury)
-[![@tsivkadi](https://user-images.githubusercontent.com/34419998/222748492-37a29d91-8acc-4319-8402-52ec5fbaa57a.png)](https://github.com/tsivkadi)
-[![@FryDay969](https://avatars.githubusercontent.com/u/39992977?v=4)](https://github.com/FryDay969)
+[![@Tolik170](https://avatars.githubusercontent.com/u/63456632?v=4)](https://github.com/Tolik170)
+[![@Mav-Ivan](https://avatars.githubusercontent.com/u/110425368?v=4)](https://github.com/Mav-Ivan)
+[![@dmtrth25](https://avatars.githubusercontent.com/u/56305508?v=4)](https://github.com/dmtrth25)
+[![@abalanovsky](https://avatars.githubusercontent.com/u/108689551?v=4)](https://github.com/abalanovsky)
+[![@OlyaKorchan](https://avatars.githubusercontent.com/u/17857767?v=4)](https://github.com/OlyaKorchan)
+[![@Marichka0406](https://avatars.githubusercontent.com/u/121502737?v=4)](https://github.com/Marichka0406)
 
 ### DevOps team
 
 [![@abohatyrov](https://avatars.githubusercontent.com/u/52012169?v=4)](https://github.com/abohatyrov)
+[![@bdeputat](https://avatars.githubusercontent.com/u/36072762?v=4)](https://github.com/bdeputat)
 
+### Designer team
+
+[![@Nastia197](https://avatars.githubusercontent.com/u/76164279?v=4)](https://github.com/Nastia197)
+
+### BA team
+
+[![@IvannaSW](https://avatars.githubusercontent.com/u/24367409?v=4)](https://github.com/IvannaSW)
+
+### QC team
+
+[![@AntonOkun](https://avatars.githubusercontent.com/u/129941062?v=4)](https://github.com/AntonOkun)
+[![@Valent1n0o](https://avatars.githubusercontent.com/u/118978192?v=4)](https://github.com/Valent1n0o)
 ---
 
 ## FAQ
 
 - **How do I do _specifically_ so and so?**
   - No problem! Just do this.
-
----
-
-## Support
 
 ---
 
